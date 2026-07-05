@@ -1,0 +1,33 @@
+* {
+    background-color: #111111;
+    text-color: #eeeeee;
+    border-color: #333333;
+}
+
+window {
+    width: 220px;
+    location: center;
+    border: 1px;
+}
+
+mainbox {
+    padding: 0;
+    children: [listview];
+}
+
+listview {
+    lines: 6;
+    scrollbar: false;
+    padding: 4px;
+}
+
+element {
+    padding: 8px 12px;
+    background-color: #111111;
+    text-color: #eeeeee;
+}
+
+element selected {
+    background-color: #2a2a2a;
+    text-color: #ffffff;
+}
